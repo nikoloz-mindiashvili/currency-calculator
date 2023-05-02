@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: gray;
+}
+#container{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 7px 7px 20px;
+    background-color: green;
+    border-radius: 10px;
+}
+#GelDiv{
+    height: 80px;
+    width: 390px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#GEL{
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px yellow;
+}
+#calculateBtn{
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 5px 5px 15px yellow;
+    border-radius: 10px;
+    background-color: pink;
+    color: blue;
+    border: none;
+    transition: 0.7s;
+}
+#originalAmount{
+    height: 30px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-shadow: 5px 5px 15px yellow;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    color: blue;
+    text-align: center;
+}
+#originalAmount::placeholder{
+    color: blue;
+}
+#calculateBtn:hover{
+    scale: 1.1;
+    cursor: pointer;
+    opacity: 0.6;
+}
+#calculateBtn:active{
+    scale: 0.9;
+    opacity: 1;
+}
+#UsdDiv{
+    height: 80px;
+    width: 200px;
+    position: relative;
+}
+#RubDiv{
+    height: 80px;
+    width: 200px;
+    position: relative;
+    
+}
+.child{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 7px 7px 15px yellow;
+}
+#usdImg{
+    width: 70px;
+    height: 45.56px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px yellow;
+    position: absolute;
+    left: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#rubImg{
+    width: 70px;
+    height: 45.56px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px yellow;
+    position: absolute;
+    left: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#dollarAmount{
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 25px;
+}
+#rubAmount{
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 25px;
+}
